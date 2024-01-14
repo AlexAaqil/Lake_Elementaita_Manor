@@ -8,7 +8,7 @@ import {
     FaMapMarkerAlt
 } from 'react-icons/fa'
 
-import './footer.css'
+import './footer.scss'
 
 import logo from '../../assets/logo.png'
 

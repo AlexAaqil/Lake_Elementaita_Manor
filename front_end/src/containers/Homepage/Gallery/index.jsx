@@ -1,4 +1,4 @@
-import './gallery.css'
+import './gallery.scss'
 
 import logo from '../../../assets/logo.png'
 import entrance01 from '../../../assets/entrance01.png'

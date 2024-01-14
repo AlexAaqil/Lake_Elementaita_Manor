@@ -1,4 +1,4 @@
-import './navbar.css'
+import './navbar.scss'
 
 export default function Navbar() {
   return (
@@ -7,7 +7,7 @@ export default function Navbar() {
             <div className="logo">
                 <a href="#hero">Lake Elemenentaita Manor</a>
             </div>
-            <ul className="nav_links">                
+            <ul className="nav_links">
                 <li><a href="#About">About</a></li>
                 <li><a href="#Gallery">Gallery</a></li>
                 <li><a href="#Contact">Contact</a></li>
