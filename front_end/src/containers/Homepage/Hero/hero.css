@@ -1,0 +1,48 @@
+.Hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  background: linear-gradient(120deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../../../assets/entrance01.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: saturate(2);
+}
+.Hero .hero_info {
+  text-align: center;
+  padding: 10px 4px;
+}
+.Hero .hero_info h1 {
+  font-weight: bold;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white;
+}
+.Hero .hero_info p {
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1em;
+  color: #fff;
+}
+
+@media screen and (width >= 726px) {
+  .Hero {
+    height: 90vh;
+  }
+  .Hero .hero_info {
+    margin-top: unset;
+    color: #fff;
+    width: 95%;
+    margin: auto;
+  }
+  .Hero .hero_info h1 {
+    font-size: 3.5em;
+  }
+  .Hero .hero_info p {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}/*# sourceMappingURL=hero.css.map */

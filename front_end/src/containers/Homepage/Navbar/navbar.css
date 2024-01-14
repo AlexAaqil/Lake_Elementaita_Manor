@@ -1,0 +1,47 @@
+header {
+  border-bottom: 1px solid rgb(201, 200, 200);
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  padding: 0px 6px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav .logo a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+header nav .nav_links {
+  list-style: none;
+  display: none;
+}
+
+@media screen and (width >= 726px) {
+  header {
+    height: 8vh;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: rgb(240, 240, 240);
+  }
+  header nav {
+    width: 95%;
+    margin: auto;
+  }
+  header nav .nav_links {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  header nav .nav_links li {
+    margin: 0px 1em;
+  }
+  header nav .nav_links li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+}/*# sourceMappingURL=navbar.css.map */

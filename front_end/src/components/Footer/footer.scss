@@ -1,0 +1,133 @@
+footer{
+    $dim_white: rgb(182, 182, 182);
+
+    background: #000;
+    color: #fff;
+
+    ul{
+        list-style: none;
+        li{
+            margin: 0.5em 0px;
+            letter-spacing: 0.4px;
+            color: $dim_white;
+            a{
+                text-decoration: none;
+                color: $dim_white;
+                &:hover{
+                    color: lightblue;
+                }
+            }
+        }
+    }
+
+    .footer_wrapper{
+        padding: 10px 12px;
+        h4{
+            font-size: 1.1em;
+            font-weight:600;
+            margin: 0px 0px 1em;
+            letter-spacing: 0.5px;
+        }
+        .logo,
+        .socials,
+        .useful_links{
+            margin: 8px 0px 2.5em;
+        }
+
+
+        .logo{
+            text-align: center;
+            img{
+                width: 100px;
+            }
+            h4{
+                margin: unset;
+            }
+            p{
+                margin: 8px 0px;
+            }
+        }
+
+        .socials{
+            ul{
+                li{
+                    span{
+                        margin: 0px 6px 0px 0px;
+                        .icon-tel{
+                            transform: rotate(310deg);
+                        }
+                    }
+                }
+            }
+            .social_media_links{
+                display: flex;
+                gap: 1em;
+                li{
+                    a{
+                        span{
+                            padding: 5px;
+                            *{
+                                font-size: 1.2em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .copyright{
+        border-top: 1px solid #424242;
+        padding: 16px 0px;
+        p{
+            margin: unset;
+            text-align: center;
+        }
+    }
+}
+
+
+@media screen and (width >= 600px) {
+    footer{
+        .footer_wrapper{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 0px 1em;
+        }
+    }
+}
+
+
+@media screen and (width >= 900px) {
+    footer{
+        .footer_wrapper{
+            padding: 10px 2%;
+            text-align: left;
+            .logo,
+            .socials,
+            .useful_links{
+                padding: 8px 10px;
+                margin: 0px;
+                h4{
+                    text-align: left;
+                }
+            }
+            .logo{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .logo_details{
+                    text-align: center;
+                    h4{
+                        font-size: 1.5em;
+                    }
+                }
+            }
+            .socials{
+                .social_media_links{
+                    justify-content: unset;
+                }
+            }
+        }
+    }
+}
