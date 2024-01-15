@@ -7,47 +7,6 @@ export default function Services() {
       <section className="Services" id="Services">
           <div className="services_wrapper">
               <div className="service">
-                  <h1>Big 5 Lounge</h1>
-
-                  <div className="container">
-                      <div className="img_container">
-                          <img src={images.big5Lounge} alt="Big 5 Lounge" />
-                      </div>
-
-                      <div className="service_info">
-                          <p>
-                              Our guests can enjoy the tranquility of the bush
-                              and the serenity of the lake while indulging in
-                              luxurious amenities and services tailored to their
-                              every need. Whether you're looking for a romantic
-                              getaway, a family vacation, or a corporate
-                              retreat, our boutique hotel promises an
-                              unforgettable stay in the heart of the Kenyan
-                              wilderness.
-                          </p>
-                          <p>
-                              Perfect for hosting lavish dinner parties and
-                              social gatherings, this dining table is designed
-                              to accommodate up to 16 guests, ensuring that
-                              everyone can dine in comfort and style. With its
-                              exquisite craftsmanship and attention to detail,
-                              this dining table is sure to impress even the most
-                              discerning diners.{" "}
-                          </p>
-                          <p>
-                              Whether you are looking for a fine dining
-                              experience, or a lavish buffet spread, this dining
-                              table is designed to cater to your every need and
-                              provide an unforgettable dining experience. So,
-                              sit back, relax, and indulge in the ultimate
-                              luxury dining experience with this magnificent 16
-                              seater grand dining table.
-                          </p>
-                      </div>
-                  </div>
-              </div>
-
-              <div className="service">
                   <h1>Bush Lunch</h1>
 
                   <div className="container">
@@ -154,12 +113,43 @@ export default function Services() {
                   </div>
               </div>
 
+              <div className="service">
+                  <h1>Swimming Pool</h1>
+                  <div className="container">
+                      <div className="img_container">
+                        <img src={images.swimming_pool_1} alt="Pool" />
+                      </div>
+                      <div className="service_info">
+                          <p>
+                              Welcome to Manor Pool, a serene oasis nestled
+                              under the protective shade of towering acacia
+                              trees. Our meticulously designed pool area
+                              features mahogany beds that effortlessly harmonize
+                              with the natural surroundings, providing the
+                              perfect spot for relaxation and contemplation.
+                              Sunken lounges invite you to unwind in style,
+                              whether you're savoring poolside bites or simply
+                              soaking up the tranquil ambiance.
+                          </p>
+                          <p>
+                              For a truly unique experience, dive into our pool
+                              and discover a luxurious lounge nestled within,
+                              where you can savor your favorite beverage while
+                              indulging in a refreshing swim. Explore the beauty
+                              of nature and indulge in unparalleled comfort at
+                              Manor Pool, where every moment is an opportunity
+                              for blissful escape.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+
               <div className="service rooms">
                   <h1 class="room">Zuhura House</h1>
 
                   <div className="container">
                       <div className="img_container">
-                        <img src={ images.zuhura } alt="Zuhura" />
+                          <img src={images.zuhura} alt="Zuhura" />
                       </div>
                       <div className="service_info">
                           <p>
@@ -202,7 +192,7 @@ export default function Services() {
                   <h1>Zhara House</h1>
                   <div className="container">
                       <div className="img_container">
-                        <img src={ images.zhara } alt="Zhara" />
+                          <img src={images.zhara} alt="Zhara" />
                       </div>
                       <div className="service_info">
                           <p>
