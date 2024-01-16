@@ -1,11 +1,13 @@
 import big5Lounge from './big5Lounge.png'
-import bushLunch from './bushLunch.png'
+import bushDining from './bush_dining.jpeg'
 import coupleHorseride from './couple_horseride.png'
 import entrance01 from './entrance01.png'
 import entrance02 from './entrance02.png'
+import hero from './hero.jpeg'
 import horseRide from './horseRide.png'
 import logo from './logo.png'
 import manor from './manor.png'
+import meal from './meal.png'
 import sunset from './sunset.png'
 import sweetiesRestaurant from './sweetiesRestaurant.png'
 import weddings from './weddings.png'
@@ -19,13 +21,15 @@ import zuhura from './zuhura.jpeg'
 
 const images = {
     big5Lounge: big5Lounge,
-    bushLunch: bushLunch,
+    bushDining: bushDining,
     coupleHorseride: coupleHorseride,
     entrance01: entrance01,
     entrance02: entrance02,
+    hero: hero,
     horseRide: horseRide,
     logo: logo,
     manor: manor,
+    meal: meal,
     sunset: sunset,
     sweetiesRestaurant: sweetiesRestaurant,
     weddings: weddings,
