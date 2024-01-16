@@ -4,7 +4,7 @@ export default function About() {
     return (
         <section className="About" id="About">
             <div className="about_content">
-                <h1>Our Story</h1>
+                <h1>Introduction</h1>
                 <p>
                     Welcome to Lake Elementaita Manor, a boutique hotel nestled
                     among the tranquil beauty of the Kenyan landscape. Situated
