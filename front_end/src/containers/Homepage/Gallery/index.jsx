@@ -16,10 +16,6 @@ export default function Gallery() {
                 </div>
 
                 <div className="gallery">
-                    <img src={images.entrance02} alt="Entrance" />
-                </div>
-
-                <div className="gallery">
                     <img src={images.zenGarden} alt="Zen Garden" />
                 </div>
 
