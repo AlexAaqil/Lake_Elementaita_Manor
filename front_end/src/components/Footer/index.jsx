@@ -26,7 +26,7 @@ export default function Footer() {
                 <div className="socials">
                     <h4>Contacts</h4>
                     <ul>
-                        <li><span><FaPhoneVolume className="icon-tel" /></span>+254 785 789 515</li>
+                        <li><span><FaPhoneVolume className="icon-tel" /></span>+254 722 737 000</li>
                         <li><span><FaEnvelope /></span>lakeelementaitamanor@gmail.com</li>
                         <li><a href="https://goo.gl/maps/e74tJKvrDQRzvUcD9" target="_blank"><span><FaMapMarkerAlt /></span>Location on the Map</a></li>
                     </ul>
