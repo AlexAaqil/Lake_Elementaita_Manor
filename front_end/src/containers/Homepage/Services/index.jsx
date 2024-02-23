@@ -238,7 +238,7 @@ export default function Services() {
 
                   <div className="container">
                       <div className="img_container">
-                          <img src={images.bushDining} alt="Bush Lunch" />
+                          {/* <img src={images.bushDining} alt="Bush Lunch" /> */}
                       </div>
 
                       <div className="service_info">

@@ -20,10 +20,6 @@ export default function Gallery() {
                 </div>
 
                 <div className="gallery">
-                    <img src={images.meal} alt="Meal" />
-                </div>
-
-                <div className="gallery">
                     <img src={images.horseRide} alt="Horse Ride" />
                 </div>
 
